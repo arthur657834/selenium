@@ -1,0 +1,23 @@
+selenium 2:
+使用IDE录制下来
+
+Navigation navigation=driver.navigate();
+navigation.to("http://www.baidu.com");
+navigation.back();
+navigation.forward();
+navigation.Refresh();
+findElement(By.id("1"))  name linktext Partiallinktext classname tagname xpath
+
+submit:提交form中数据
+
+弹窗处理
+accept()
+dismiss()
+
+窗口切换switchto
+switchto().alter().SendKeys("1");
+
+getwindowshandles()
+
+cookies处理还没写
+
