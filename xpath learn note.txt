@@ -1,0 +1,25 @@
+position()>3
+前2个子元素
+
+[string-length(text())!=2]
+所有bookname的文本值不为2个字符的元素
+
+@price>30 or @price<10
+属性price大于30或小于10
+
+//book | //apple
+
+[2]
+[last()]
+[first()]
+round(5.254)
+substring('motherland',3)
+substring('motherland',3,4)
+substring-before('motherland','her')
+substring-after('motherland','her')
+concat('good','better')
+sum(//a)/3
+normalize-space('I  love   you.')
+多个连续空格变为一个空格
+ceiling(5.12)
+floor(5.0003)
