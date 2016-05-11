@@ -1,3 +1,6 @@
+IDE下载地址
+https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/
+
 selenium 2:
 使用IDE录制下来
 

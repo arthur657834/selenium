@@ -1,7 +1,2 @@
-<node1>chouhama</node1>
-xpath定位：
-ex1://node1/text() 定位chouhama
-ex2://span[text()="导演"]/../a/text()
-
-
+value 值定义:javascript{"1:"+storedVars["first"].toUpperCase()}
 

@@ -1,3 +1,27 @@
+/AAA
+/AAA/BBB
+//AAA|//BBB
+/AAA/BBB[0]
+/AAA/BBB[last()]
+//@id  选择属性
+/AAA/BBB[@id]
+/AAA/BBB[@id='123']
+/AAA/BBB[@*]
+/AAA/BBB[not(@*)]
+
+
+//AAA
+//AAA/BBB
+/AAA/BBB/*
+/*/*/*/BBB
+//*
+
+
+xpath定位：
+ex1://node1/text() 定位chouhama
+ex2://span[text()="导演"]/../a/text()
+
+
 position()>3
 前2个子元素
 

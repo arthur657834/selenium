@@ -72,6 +72,7 @@ iseditable(locator)
 getXpathCount(locator)
 
 断言被用于三种模式: assert 、verify、waitfor
+assertValue,assertNotValue,verifyValue,verifyNotValue,waitforValue,waitforNotValue
 
 Assert 失败时，该测试将终止。
 
@@ -91,7 +92,7 @@ assertValue（检查input的值， checkbox或radio，有值为”on”无为”
 
 assertSelected（检查select的下拉菜单中选中是否正确）、
 
-assertSelectedOptions（检查下拉菜单中的选项的是否正确）、 index vable value
+assertSelectedOptions（检查下拉菜单中的选项的是否正确）、 index lable value
 
 assertText（检查指定元素的文本）、
 
@@ -104,6 +105,10 @@ assertAttribute（检查当前指定元素的属性的值）、
 assertTable（检查table里的某个cell中的值）、
 
 assertEditable（检查指定的input是否可以编辑）、
+
+assertVisible（检查指定的元素是否展现）、
+
+assertElementPresent（检查指定的元素是否存在）、
 
 assertNotEditable（检查指定的input是否不可以编辑）、
 
