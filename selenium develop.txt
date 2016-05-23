@@ -1,2 +1,38 @@
 value 值定义:javascript{"1:"+storedVars["first"].toUpperCase()}
 
+
+		
+		 List<WebElement>
+		 element=driver.findElements(By.xpath(script_content2));
+		 for(WebElement e:element)
+		 {
+		 System.out.println(e.getAttribute("wrap"));
+		 }
+		 System.exit(0);
+		 driver.findElement(By.xpath(script_content)).click();
+
+		if (!(driver.findElement(By.xpath(script_content2)).isDisplayed())) {
+			System.out.println("Element is not displayed!");
+		}
+		
+		JavascriptExecutor j2 = (JavascriptExecutor) driver;
+		j2.executeScript("$(\"pre.CodeMirror-line > span\").append(\"<span>a</span>\")");
+				j2.executeScript("alert(document.getElementsByClassName(\"CodeMirror-line\"))");
+		
+		j2.executeScript(
+				"$(\"pre[class=\" CodeMirror-line \"]\").show()");
+		
+		j2.executeScript(
+				"$(\"div[style='overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 4px;']\").val(\"Dolly Duck\")");
+		
+		j2.executeScript("document.getElementsByTagName('textarea')[0].innerText='1232'");
+		j2.executeScript("document.getElementsByTagName('textarea')[1].style=\"\"");
+		j2.executeScript("document.getElementsByTagName('textarea')[2].style=\"\"");
+		
+		j2.executeScript("document.getElementsByTagName('textarea')[0].innerText='1232'");
+		j2.executeScript("document.getElementsByTagName('textarea')[1].innerText='1232'");
+		j2.executeScript("document.getElementsByTagName('textarea')[2].innerText='6666666'");
+		
+		
+		
+		
