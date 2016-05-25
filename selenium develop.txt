@@ -1,6 +1,13 @@
 value 值定义:javascript{"1:"+storedVars["first"].toUpperCase()}
 
-
+新建firefox配置:
+firefox -p
+新建成功之后安装插件
+ProfilesIni allProfiles = new ProfilesIni();
+FirefoxProfile profile = allProfiles.getProfile("selenium");
+// FirefoxProfile profile = allProfiles.getProfile("default");
+driver = new FirefoxDriver(profile);
+		
 		
 		 List<WebElement>
 		 element=driver.findElements(By.xpath(script_content2));
