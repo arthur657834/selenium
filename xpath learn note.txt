@@ -1,49 +1,17 @@
-/AAA
-/AAA/BBB
-//AAA|//BBB
-/AAA/BBB[0]
-/AAA/BBB[last()]
-//@id  选择属性
-/AAA/BBB[@id]
-/AAA/BBB[@id='123']
-/AAA/BBB[@*]
-/AAA/BBB[not(@*)]
-
-
-//AAA
-//AAA/BBB
-/AAA/BBB/*
-/*/*/*/BBB
-//*
-
-
-xpath定位：
-ex1://node1/text() 定位chouhama
-ex2://span[text()="导演"]/../a/text()
-
-
-position()>3
-前2个子元素
-
-[string-length(text())!=2]
-所有bookname的文本值不为2个字符的元素
-
-@price>30 or @price<10
-属性price大于30或小于10
-
-//book | //apple
-
-[2]
-[last()]
-[first()]
-round(5.254)
-substring('motherland',3)
-substring('motherland',3,4)
-substring-before('motherland','her')
-substring-after('motherland','her')
-concat('good','better')
-sum(//a)/3
-normalize-space('I  love   you.')
-多个连续空格变为一个空格
-ceiling(5.12)
-floor(5.0003)
+U2FsdGVkX1/g0qVAxcgDVFPJ7jPXcjFXo1yj0Oewiu47P9XMMWjYNg3tRLokbywp
+Oc0AbPCp9j6OzQ6XvlrH8JF3wfrAQSveOQMs+SOa6ILylbsAq97eG4vDd9odPgoh
+24tfuODSqPtDL7vndTbsVPsUm+aANLIkuyBdMJCQ9l7v1iB8TMnD3Ifvy9WYYw1d
+kiREapcMLcOShpPQKcuXkqp1kWDU+p1dSXqt2gGF4BcGQId28Q2dt1YuitcpxP/M
+zwMO+PS6/nf3+079EKbPFf271ke6IBAvj055998+1A9Gl0135s+oJODpZEGHBH2b
+5XL0/V+VNXNeHLK13ui2KeBOL1lLlCY5W+Gx6gqIBwzaw6h5GqtTriGmXfz4edYL
+RqCGbsJvMcFSnekZIkrkmP+d/hk/2tVw8K8AtjWX8shhJsBFA2weBPjjFfsL1B9o
+Sr4aozPI924tWsMu8nDOAEg1m4HjAUvu44GlzTEs/JeeAD0wgvuish1WNe0BxnGn
+RSoNOnppjGOUXpplwQ8VmEogGeUt331lecr+tl6+jWYzxESoPFCetVYtb1guCRWh
+UCpYJAwRfmkD/BUnMbvD3sehjta/1NyWH6GmDdT8aMXR41dnn965uS60ikCn7AAT
+p+jdE7TFd38aKQ602/Vw6JotYJFRWCPIWE20S+aL+LmEpfT9bqj5ILMDRJBlFuuT
+JzENkegEd4WjD3Rcm8nOhUNrnzJ8iymkFSxC0PlCBPma6VO1v2g5iW5hzDOCjsJm
+YhBnnwDKpEhzuPN+Ac4iFdkTcfFvVLIzVzISIi9qiB+IUZ7gm5gnqcOep3JD1e9V
+ck1LIhmHwXLNg+j4OeYfylOIEnMYvgjc2wlg6OsrA331MnxS0OmHhdrxOOqKCF+T
+OwG8UESh4kh1l43mde8GG1aS2uLdTk2XzSls2evfuM4ZKTi7l0l0xSTUKrA224Wy
+4W5f+hecvSegbu8zsC5cfzhVdddR6FZoyfsHRhA2tGPN4Jd8x4uR4BVMMNdiG4Uc
+04vRaLg+oZk=

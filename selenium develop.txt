@@ -1,106 +1,85 @@
-value 值定义:javascript{"1:"+storedVars["first"].toUpperCase()}
-
-新建firefox配置:
-firefox -p
-新建成功之后安装插件
-ProfilesIni allProfiles = new ProfilesIni();
-FirefoxProfile profile = allProfiles.getProfile("selenium");
-// FirefoxProfile profile = allProfiles.getProfile("default");
-driver = new FirefoxDriver(profile);
-		
-		
- List<WebElement>
- element=driver.findElements(By.xpath(script_content2));
- for(WebElement e:element)
- {
- System.out.println(e.getAttribute("wrap"));
- }
- System.exit(0);
- driver.findElement(By.xpath(script_content)).click();
-
-if (!(driver.findElement(By.xpath(script_content2)).isDisplayed())) {
-	System.out.println("Element is not displayed!");
-}
-
-JavascriptExecutor j2 = (JavascriptExecutor) driver;
-j2.executeScript("$(\"pre.CodeMirror-line > span\").append(\"<span>a</span>\")");
-		j2.executeScript("alert(document.getElementsByClassName(\"CodeMirror-line\"))");
-
-j2.executeScript(
-		"$(\"pre[class=\" CodeMirror-line \"]\").show()");
-
-j2.executeScript(
-		"$(\"div[style='overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 4px;']\").val(\"Dolly Duck\")");
-
-j2.executeScript("document.getElementsByTagName('textarea')[0].innerText='1232'");
-j2.executeScript("document.getElementsByTagName('textarea')[1].style=\"\"");
-j2.executeScript("document.getElementsByTagName('textarea')[2].style=\"\"");
-
-j2.executeScript("document.getElementsByTagName('textarea')[0].innerText='1232'");
-j2.executeScript("document.getElementsByTagName('textarea')[1].innerText='1232'");
-j2.executeScript("document.getElementsByTagName('textarea')[2].innerText='6666666'");
-		
-		
-System.setProperty("webdriver.firefox.bin","D:/Program Files/Mozilla Firefox/firefox.exe"); 　　　　//指定firefox的安装路径
-　
-
-启动firefox时加载插件：
-File file = new File("files/firebug-2.0.7-fx.xpi");
-FirefoxProfile profile = new FirefoxProfile();
-try {
-    profile.addExtension(file);
-} catch (IOException e) {
-    e.printStackTrace();
-}
-profile.setPreference("extensions.firebug.currentVersion", "2.0.7");
-//active firebug extensions
-profile.setPreference("extensions.firebug.allPagesActivation", "on");    
-
-启动firefox时设置profile：
-
-FirefoxProfile profile = new FirefoxProfile();
-//设置代理参数
-profile.setPreference("network.proxy.type", 1);
-profile.setPreference("network.proxy.http", proxyIp);
-profile.setPreference("network.proxy.http_port", proxyPort);
-
-//设置默认下载路径
-profile.setPreference("browser.download.folderList", 2);
-profile.setPreference("browser.download.dir", "D:\\");
-
-启动本机器的firefox配置：
-ProfilesIni pi = new ProfilesIni();
-FirefoxProfile profile = pi.getProfile("default");
-
-启动firefox插件：
-//设置firebug版本
-profile.setPreference("extensions.firebug.currentVersion", "1.9.0");
-//自动打开firebug
-profile.setPreference("extensions.firebug.allPagesActivation", "on");
-//设置启用firebug网络面板
-profile.setPreference("extensions.firebug.net.enableSites", true);
-//设置启用firebugcookies面板
-profile.setPreference("extensions.firebug.cookies.enableSites", true);
-
-启动chrome浏览器：
-System.setProperty("webdriver.chrome.driver", "files\\chromedriver.exe");　　//指定驱动路径
-WebDriver driver = new ChromeDriver();
-#WebDriver driver = new ChromeDriver(options);
-
-File file = new File ("files\\youtube.crx");
-ChromeOptions options = new ChromeOptions();
-options.addExtensions(file);
-
-
-启动IE浏览器：
-
-System.setProperty("webdriver.ie.driver", "files\\IEDriverServer.exe");
-DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
-dc.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-
-//IE默认启动保护模式，要么手动在浏览器的设置中关闭保护模式，要么在代码中加上这一句，即可
-dc.setCapability("ignoreProtectedModeSettings", true);
-WebDriver driver = new InternetExplorerDriver(dc);
-
-
-		
+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
