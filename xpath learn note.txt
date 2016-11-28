@@ -1,17 +1,49 @@
-U2FsdGVkX1/7emO5jJB7kyCGhaSoQ9w0HYmTq4qRzpKzLbwgtimGEE2/uy/1Evqg
-EhxoQ4BGwEDMc88KxfxyS5VH6FEfh0BMwYHvAyhkmXGr6nyS3SET3vk10wAGJ7Rx
-Spr+TWfhGYjfYuCa0V8ANZaS8IOcOe1J3eeoQGViXiBQpK6EwKfomAiP4xETfS+e
-LgALe1vpwTow08ImLyx4y5cfLcvGZ0fv+ok8QIjzj4JGZQT20QUjhayRxfy2pk7Z
-mWgGT67rvtqpZY8tcL++MYnFZn+uO0k0GMyQsSpHcNoE176NuSNKsFZwmUwn6riS
-lKpEwW5QmUHhSfK0iCmqkPJzxsZSHIpTADJ/9AZgYP+GT7WCt/MkIe9d/jHsyjuy
-IE7OUNc88tTgXQLleXpzN0XxKjsI1qVLf+F2oLoD1OhRsPclbwgJ3OoI9OURzkwZ
-c0qRhlT6r51noXY/guwjb8mUKuerBqgMZU6cC9Yfzg0BSYxOWDOM2x6Qwrpy79m2
-esV4CfGF/iMzPQ35MxtOIQwhipx8cyebmKS+qKIiRL23OGpzMD2T4IhQF2SfEBdm
-wPPFqN0AgSIaPNBQ6GeDqHharJ1j9Lso27NlbXswie1CDZBnOZ+LTapUhuOAHHPY
-Z00l2/5fqczlIxJlArI0aXIsQig3Qx6rukguYYsE+JTsN7GOoT+KZ99YKJBhY8x1
-TegdjL6MZIs9dbt7n1awRfqacuXZSdICtZATlgnmAh5p8KyK8YABbLRY0HZr/YmM
-kOTnldi+PvyFD2Af5d51FXf3+XrSFO+fvH/A8JJFteW2GCFEMBxaFYsKQ5VIfMaJ
-DzIRP5GclSkPzzyDoEhjtJvNTpba/tOp5qjxC24fu1yOWwqAr9Nw6cHTMVCZiMFL
-wAWul1556axJWQseADLBbMd/jzKsoaKmejLG2kqHlR+PHLwkw6NdN//ks54EOLl0
-saiDO/tRgmdnO1NK2gpfpddyUzRiPKHA21U3ZbH4/ykn7NaX5BZFzi7T8ZCDn/sd
-E2+MUj3vj9w=
+/AAA
+/AAA/BBB
+//AAA|//BBB
+/AAA/BBB[0]
+/AAA/BBB[last()]
+//@id  选择属性
+/AAA/BBB[@id]
+/AAA/BBB[@id='123']
+/AAA/BBB[@*]
+/AAA/BBB[not(@*)]
+
+
+//AAA
+//AAA/BBB
+/AAA/BBB/*
+/*/*/*/BBB
+//*
+
+
+xpath定位：
+ex1://node1/text() 定位chouhama
+ex2://span[text()="导演"]/../a/text()
+
+
+position()>3
+前2个子元素
+
+[string-length(text())!=2]
+所有bookname的文本值不为2个字符的元素
+
+@price>30 or @price<10
+属性price大于30或小于10
+
+//book | //apple
+
+[2]
+[last()]
+[first()]
+round(5.254)
+substring('motherland',3)
+substring('motherland',3,4)
+substring-before('motherland','her')
+substring-after('motherland','her')
+concat('good','better')
+sum(//a)/3
+normalize-space('I  love   you.')
+多个连续空格变为一个空格
+ceiling(5.12)
+floor(5.0003)

@@ -1,11 +1,26 @@
-U2FsdGVkX18/j55PLqjU+X7DYcSf4pDmJAnDPoQS54zggrZlpuVA6EO368QyF/Lp
-S3N6GPjj9sqh8kO54wDxjKwvgkK0cwCjquWdxNYG9IDQTQbAZhnfb/utzn5iVRk/
-kc3MXpqiEanyAwFGO2/CVNUAXWasuQ0H1IYrhfXQG7rf9D0L1gpycymocLNZ1pzI
-5hdhkXxZcXp+0Xa5tT3KC0MZvwzTBHSuQZhDJK9Kr9uvmGQBK0i6ZDd6JtdWvf+R
-xytawBJ0eZGbM2/MgpbysvKT5dqa3d2oBqEZTOEtkdOmzFsNtirxnsZkgT8GI55w
-eKWvuy43gCt1GkuRjScNUQOLu5oPOnP0i+K7FrebvnTbr+i0kXj3LVBvfth1tdWM
-0f1/iAsmf3tTx1NUINw81F3628CBkAUgdJ1fyAl+jdD9WF/fuulyvDAVn/L4ZMlf
-jLhyMr3zYxguH2f+NpOzmRzeFtr2O1NX+aRkbeH3hgD4h5MraNfv8FNeYTeNq9Ep
-Aa6VKAdAO475T4RhH13k8ITzOABDxq7dKaY3WW3a7IuXWFm3u2MufEvher3LSXTu
-oZxs1/lQoc+a2eoxj8S756KQehmZXMJjE5DR79Ht6JqODXvMHNDdoYyFGFGxEscy
-muB8sWDFKPDp6s87YUDhBq//gbCLrwr6Hb+9Da3bBNRbC9EpsaigGg==
+IDE下载地址
+https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/
+
+selenium 2:
+使用IDE录制下来
+
+Navigation navigation=driver.navigate();
+navigation.to("http://www.baidu.com");
+navigation.back();
+navigation.forward();
+navigation.Refresh();
+findElement(By.id("1"))  name linktext Partiallinktext classname tagname xpath
+
+submit:提交form中数据
+
+弹窗处理
+accept()
+dismiss()
+
+窗口切换switchto
+switchto().alter().SendKeys("1");
+
+getwindowshandles()
+
+cookies处理还没写
+
