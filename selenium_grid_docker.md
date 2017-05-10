@@ -1,4 +1,5 @@
 docker-compose up -d
+
 docker-compose scale web=2 worker=3
 
 docker-compose.yml
@@ -42,7 +43,7 @@ Platform="LINUX"
 
 chrome设置成功，firefox不行
 
-pen browser 后面 +  desired_capabilities=${browser_info}
+open browser 后面 +  desired_capabilities=${browser_info}
 
 
 {seleniumProtocol=WebDriver, browserName=firefox, maxInstances=1, version=53.0, applicationName=, platform=LINUX}]
